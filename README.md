@@ -1,8 +1,8 @@
 # Hybrid Deepfake Detector
 **Detect deepfakes using a hybrid approach that combines spatial CNN features with temporal rPPG and noise‑analysis signals.**  
 
-[![GitHub license](https://img.shields.io/github/license/iconic2409/hybrid-deepfake-detector)](https://github.com/iconic2409/hybrid-deepfake-detector/blob/main/LICENSE)
-[![GitHub stars](https://img.shields.io/github/stars/iconic2409/hybrid-deepfake-detector?style=social)](https://github.com/iconic2409/hybrid-deepfake-detector/stargazers)
+[![GitHub license](https://img.shields.io/github/license/DHP065/Hybrid-Deepfake-Detection)](https://github.com/DHP065/Hybrid-Deepfake-Detection/blob/main/LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/DHP065/Hybrid-Deepfake-Detection?style=social)](https://github.com/DHP065/Hybrid-Deepfake-Detection/stargazers)
 
 ---  
 
@@ -116,15 +116,15 @@ You can try them by selecting **`samples/sample_real.mp4`** or **`samples/sample
 
 ```mermaid
 flowchart TD
-    A[Input video] --> B[Frame extractor]
-    B --> C[Spatial CNN (ResNet‑50)]
-    B --> D[Temporal rPPG extractor]
-    B --> E[Noise‑analysis module]
-    C --> F[Feature concat]
+    A["Input video"] --> B["Frame extractor"]
+    B --> C["Spatial CNN (ResNet-50)"]
+    B --> D["Temporal rPPG extractor"]
+    B --> E["Noise-analysis module"]
+    C --> F["Feature concat"]
     D --> F
     E --> F
-    F --> G[Classifier (MLP)]
-    G --> H[Deepfake probability]
+    F --> G["Classifier (MLP)"]
+    G --> H["Deepfake probability"]
 ```
 
 *(The diagram file `assets/architecture.png` is a higher‑resolution PNG version for GitHub.)*
