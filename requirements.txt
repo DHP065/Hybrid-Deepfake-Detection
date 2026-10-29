@@ -1,0 +1,17 @@
+opencv-python
+mediapipe
+numpy
+scipy
+matplotlib
+scikit-learn
+torch
+torchvision
+torchaudio
+grad-cam
+moviepy
+streamlit
+plotly
+pandas
+reportlab
+seaborn
+tqdm

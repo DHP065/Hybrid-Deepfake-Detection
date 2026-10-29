@@ -1,0 +1,18 @@
+# Python virtual environment
+.venv/
+# Byte‑code caches
+__pycache__/
+*.py[cod]
+# Build artifacts
+build/
+dist/
+*.egg-info/
+# Model outputs / temporary files
+out/
+temp_out/
+# Large temporary data
+*.log
+# OS‑specific
+.DS_Store
+Thumbs.db
+
